@@ -1,8 +1,8 @@
-/*
+
 variable "cloudmanager_refresh_token" {
 }
 
-
+/*
 variable "cvo_admin_password" {
 }
 
