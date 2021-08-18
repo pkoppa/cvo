@@ -1,3 +1,4 @@
+/*
 variable "cloudmanager_refresh_token" {
 }
 
@@ -17,7 +18,7 @@ variable "region" {
 variable "subnet" {
 }
 
-
+*/
 variable "connector_id" {
 }
 
