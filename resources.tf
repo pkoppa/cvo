@@ -22,7 +22,6 @@ resource "netapp-cloudmanager_volume" "cvo-volume-nfs" {
   export_policy_type = "custom"
   export_policy_ip = ["0.0.0.0/0"]
   export_policy_nfs_version = ["nfs4"]
-  #working_environment_id = var.working_environment_id
-  working_environment_id = "VsaWorkingEnvironment-kXJjHwTS"
+  working_environment_id = var.working_environment_id
   client_id = var.connector_id
 }
