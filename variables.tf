@@ -2,7 +2,7 @@
 variable "cloudmanager_refresh_token" {
 }
 
-/*
+
 variable "cvo_admin_password" {
 }
 
@@ -18,7 +18,7 @@ variable "region" {
 variable "subnet" {
 }
 
-*/
+
 variable "connector_id" {
 }
 
