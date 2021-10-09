@@ -1,4 +1,4 @@
-/*
+
 resource "netapp-cloudmanager_cvo_aws" "cvo-aws" {
   #provider = netapp-cloudmanager
   name   = var.name_of_cvo_working_environment
@@ -8,8 +8,8 @@ resource "netapp-cloudmanager_cvo_aws" "cvo-aws" {
   client_id           = var.connector_id
   writing_speed_state = "NORMAL"
 }
-*/
 
+/*
 
 
 resource "netapp-cloudmanager_volume" "cvo-volume-nfs" {
@@ -25,3 +25,4 @@ resource "netapp-cloudmanager_volume" "cvo-volume-nfs" {
   working_environment_id = var.working_environment_id
   client_id = var.connector_id
 }
+*/
